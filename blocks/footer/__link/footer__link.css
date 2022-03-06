@@ -3,6 +3,11 @@
     color: var(--white);
     font-size: 1.5rem;
     line-height: 1;
+    transition: 0.3s ease-in;
+}
+
+.footer__link:hover {
+    opacity: 0.8;
 }
 
 @media screen and (min-width: 768px) {

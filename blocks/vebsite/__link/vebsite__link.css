@@ -2,4 +2,9 @@
     font-size: 1.1;
     line-height: 1.22;
     color: var(--white);
+    transition: 0.3s ease-in;
+}
+
+.vebsite__link:hover {
+    opacity: 0.8;
 }
