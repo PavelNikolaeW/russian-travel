@@ -1,4 +1,3 @@
-
 /*--- NO BEM BLOCKS ---*/
 
 @import url(../vendor/normalize.css);
@@ -8,7 +7,7 @@
 /*--- VEBSITE ---*/
 
 @import url(../blocks/vebsite/vebsite.css);
-@import url(../blocks/vebsite/_link/vebsite_link.css);
+@import url(../blocks/vebsite/__link/vebsite__link.css);
 @import url(../blocks/vebsite/__url/vebsite__url.css);
 
 /*--- PLACES ---*/
