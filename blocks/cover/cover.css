@@ -11,6 +11,7 @@
 }
 
 .cover:hover {
+    cursor: pointer;
     background-image: linear-gradient(to top, rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)), url(../../img/cover/__background.png);
 }
 
