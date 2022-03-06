@@ -1,7 +1,6 @@
 .header__lang-link {
     font-size: 1.17rem;
     line-height: 1.11;
-    text-decoration: underline;
     color: var(--white);
     text-decoration: none;
 }
