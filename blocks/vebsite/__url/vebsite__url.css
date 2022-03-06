@@ -1,0 +1,13 @@
+.vebsite__url {
+    color: #aaa;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    .vebsite__url {
+        margin: 0;
+    }
+}

@@ -1,0 +1,11 @@
+.place__vebsite {
+    padding: 0 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .place__vebsite {
+        padding: 0;
+        align-self: end;
+        justify-self: start;
+    }
+}

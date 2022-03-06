@@ -6,15 +6,6 @@
         display: flex;
         justify-content: space-between;
     }
-    /* Основной код для разрешения 1024px */
-    
-    @media screen and (min-width: 2560px) {
-        /* стили для больших мониторов с разрешением 4K */
-    }
-    
-    @media screen and (min-width: 1440px) {
-        /* стили для больших настольных компьютеров и ноутбуков */
-    }
     
     @media screen and (min-width: 768px) {
         .header {
@@ -26,16 +17,4 @@
         .header {
             padding: 28px 0 0 0;
         }
-    }
-    
-    @media screen and (min-width: 425px) {
-        /* стили для широкого смартфона */
-    }
-    
-    @media screen and (min-width: 375px) {
-        /* стили для среднего смартфона */
-    }
-    
-    @media screen and (max-width: 320px) {
-        /* стили для малого смартфона */
     }

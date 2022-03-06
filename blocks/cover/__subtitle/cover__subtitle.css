@@ -1,0 +1,20 @@
+.cover__subtitle {
+    font-weight: normal;
+    margin: 0;
+    font-size: 0.87rem;
+    line-height: 1.14;
+}
+
+@media screen and (min-width: 425px) {
+    .cover__subtitle {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cover__subtitle {
+        width: 55%;
+        font-size: 1.25rem;
+        line-height: 1.22;
+    }
+}

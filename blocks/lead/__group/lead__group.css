@@ -5,13 +5,6 @@
     position: relative;
 }
 
-
-/* Основной код для разрешения 1024px */
-
-@media screen and (min-width: 2560px) {
-    /* стили для больших мониторов с разрешением 4K */
-}
-
 @media screen and (min-width: 768px) {
     .lead__group {
         margin: 56px 0 0 0;
@@ -31,16 +24,4 @@
         max-width: 984px;
         margin: 64px 0 0 0;
     }
-}
-
-@media screen and (max-width: 425px) {
-    /* стили для широкого смартфона */
-}
-
-@media screen and (max-width: 375px) {
-    /* стили для среднего смартфона */
-}
-
-@media screen and (max-width: 320px) {
-    /* стили для малого смартфона */
 }

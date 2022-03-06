@@ -1,45 +1,23 @@
     .lead__overlay {
-    position: absolute;
-    width: 95.5%;
-    left: 5px;
-    top: 30px;
-    z-index: 3;
-    object-fit: contain;
-}
-
-
-/* Основной код для разрешения 1024px */
-
-@media screen and (min-width: 2560px) {
-    /* стили для больших мониторов с разрешением 4K */
-}
-
-@media screen and (min-width: 1440px) {
-    /* стили для больших настольных компьютеров и ноутбуков */
-}
-
-@media screen and (min-width: 768px) {
-    .lead__overlay {
-        left: 18px;
-        top: 70px;
+        position: absolute;
+        width: 95.5%;
+        left: 5px;
+        top: 30px;
+        z-index: 3;
+        object-fit: contain;
     }
-}
-
-@media screen and (min-width: 1024px) {
-    /* стили для планшета в альбомной ориентации */
-    .lead__overlay {
-        left: 22px;
-        top: 85px;
+    
+    @media screen and (min-width: 768px) {
+        .lead__overlay {
+            left: 18px;
+            top: 70px;
+        }
     }
-}
-
-@media screen and (max-width: 425px) {
-    /* стили для широкого смартфона */
-}
-
-@media screen and (max-width: 375px) {
-    /* стили для среднего смартфона */
-}
-
-@media screen and (max-width: 320px) {
-    /* стили для малого смартфона */
+    
+    @media screen and (min-width: 1024px) {
+        /* стили для планшета в альбомной ориентации */
+        .lead__overlay {
+            left: 22px;
+            top: 85px;
+        }
+    }

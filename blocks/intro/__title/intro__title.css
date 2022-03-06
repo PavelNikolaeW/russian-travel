@@ -5,13 +5,6 @@
     font-weight: 900;
 }
 
-
-/* Основной код для разрешения 1024px */
-
-@media screen and (min-width: 2560px) {
-    /* стили для больших мониторов с разрешением 4K */
-}
-
 @media screen and (min-width: 768px) {
     .intro__title {
         font-size: 3.37rem;
@@ -24,20 +17,4 @@
     .intro__title {
         max-width: 690px;
     }
-}
-
-@media screen and (min-width: 1280px) {
-    /* стили для больших настольных компьютеров и ноутбуков */
-}
-
-@media screen and (max-width: 425px) {
-    /* стили для широкого смартфона */
-}
-
-@media screen and (max-width: 375px) {
-    /* стили для среднего смартфона */
-}
-
-@media screen and (max-width: 320px) {
-    /* стили для малого смартфона */
 }

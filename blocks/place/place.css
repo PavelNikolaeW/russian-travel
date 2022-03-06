@@ -1,0 +1,35 @@
+.place {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .place {
+        display: grid;
+        grid-template-columns: minmax(340px, 1fr) minmax(352px, 1fr);
+        grid-template-rows: repeat(2, minmax(min-content, max-content));
+        row-gap: 48px;
+        column-gap: 28px;
+        padding: 0 24px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    /* стили для планшета в альбомной ориентации */
+    .place {
+        grid-template-columns: minmax(440px, max-content) minmax(456px, max-content);
+        grid-template-rows: repeat(2, minmax(min-content, max-content));
+        column-gap: 32px;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    /* стили для больших настольных компьютеров и ноутбуков */
+    .place {
+        grid-template-columns: minmax(460px, max-content) minmax(484px, max-content);
+        grid-template-rows: repeat(2, minmax(min-content, max-content));
+        column-gap: 40px;
+    }
+}
