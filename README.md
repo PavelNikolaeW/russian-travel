@@ -1,6 +1,6 @@
-# [Путешествие по России](https://github.com/PavelNikolaeW/russian-travel)
+# [Путешествие по России](https://pavelnikolaew.github.io/russian-travel/index.html)
 
-Сайт о том какие интересные месте есть в России.
+Сайт о том какие интересные места есть в России.
 
 
 Использую HTML и  css 
