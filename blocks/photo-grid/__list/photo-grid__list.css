@@ -1,8 +1,7 @@
 .photo-grid__list {
-    margin: 0;
+    margin: 15px 0 0 0;
     padding: 0;
     list-style: none;
-    margin-top: 15px;
     display: grid;
     gap: 12px;
     grid-template-columns: minmax(288px, 1fr);
@@ -20,7 +19,7 @@
     .photo-grid__list {
         grid-template-columns: repeat(2, minmax(352px, 1fr));
         grid-template-rows: repeat(6, minmax(264px, 1fr));
-        margin-top: 0px;
+        margin: 0px;
         gap: 16px;
     }
 }
@@ -30,7 +29,6 @@
     .photo-grid__list {
         grid-template-columns: repeat(3, minmax(300px, 1fr));
         grid-template-rows: repeat(4, minmax(225px, 1fr));
-        gap: 14px;
     }
 }
 
@@ -39,6 +37,5 @@
     .photo-grid__list {
         grid-template-columns: repeat(4, minmax(284px, 1fr));
         grid-template-rows: repeat(3, minmax(213px, 1fr));
-        gap: 16px;
     }
 }
